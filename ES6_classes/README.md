@@ -1,1 +1,1 @@
-This is ECMASCRIPT6 OF JAVASCRIPT
+insert text

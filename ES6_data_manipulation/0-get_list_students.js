@@ -1,16 +1,11 @@
-/**
- * @function getListStudents
- * @description Function to get the list of students.
- * Each student is an object with `id`, `firstName`, and `location` properties.
- * @returns {Array} Array of student objects.
- */
-export default function getListStudents() {
+function getListStudents() {
     return [
-      // Student object with id 1, firstName 'Guillaume', and location 'San Francisco'
-      { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
-      // Student object with id 2, firstName 'James', and location 'Columbia'
-      { id: 2, firstName: 'James', location: 'Columbia' },
-      // Student object with id 5, firstName 'Serena', and location 'San Francisco'
-      { id: 5, firstName: 'Serena', location: 'San Francisco' },
+        { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+        { id: 2, firstName: 'James', location: 'Columbia' },
+        { id: 5, firstName: 'Serena', location: 'San Francisco' }
     ];
-  }
+}
+
+// Example usage
+const students = getListStudents();
+console.log(students);
